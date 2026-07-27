@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -294,7 +295,7 @@
 <body>
 
 <div class="topbar">
-  <div class="brand"><span class="brand-mark">C</span><span class="brand-text">Capabilities</span></div>
+  <div class="brand"><span class="brand-mark">C</span><span class="brand-text">Apps And Modernization</span></div>
   <div class="pagenav">
     <button data-target="p1" class="active">Overview</button>
     <button data-target="p2">What We Do</button>
@@ -505,7 +506,8 @@ const CAPABILITIES = {
     ],
     stories:[
       {icon:'layers',color:'#a78bfa',bg:'rgba(88,40,115,0.2)',title:'Monolith to Microservices',desc:'Decomposed a legacy monolith into containerized microservices, improving deployment speed by 3x.',tag:'Cloud Native Transformation'},
-      {icon:'building',color:'#7cc4fa',bg:'rgba(79,147,217,0.15)',title:'Legacy Portal Modernization',desc:'Modernized a legacy web portal onto a current framework and cloud-native hosting.',tag:'Legacy Application Modernization'}
+      {icon:'building',color:'#7cc4fa',bg:'rgba(79,147,217,0.15)',title:'Legacy Portal Modernization',desc:'Modernized a legacy web portal onto a current framework and cloud-native hosting.',tag:'Legacy Application Modernization'},
+      {icon:'layers',color:'#7cc4fa',bg:'rgba(79,147,217,0.15)',title:'Kubernetes Modernization & Cost Optimization',desc:'Migrated monolithic workloads to a containerized, auto-scaling AKS environment, cutting compute costs by 38% and improving release speed by 45% across 220+ microservices.',tag:'Containerization'}
     ]
   },
   cloudeng: {
@@ -544,7 +546,8 @@ const CAPABILITIES = {
     stories:[
       {icon:'layers',color:'#7cc4fa',bg:'rgba(79,147,217,0.15)',title:'Enterprise Landing Zone',desc:'Designed and implemented an enterprise landing zone with governance, security and automated deployments.',tag:'Landing Zone Implementation'},
       {icon:'sync',color:'#00c9a7',bg:'rgba(0,201,167,0.15)',title:'CI/CD Platform',desc:'Built a standardized CI/CD platform adopted across 20+ engineering teams.',tag:'DevOps Enablement'},
-      {icon:'shield',color:'#ff4f6d',bg:'rgba(255,79,109,0.15)',title:'Governance Framework',desc:'Implemented a cloud governance framework covering policy, cost and compliance controls.',tag:'Cloud Governance'}
+      {icon:'shield',color:'#ff4f6d',bg:'rgba(255,79,109,0.15)',title:'Governance Framework',desc:'Implemented a cloud governance framework covering policy, cost and compliance controls.',tag:'Cloud Governance'},
+      {icon:'server',color:'#00d4ff',bg:'rgba(0,212,255,0.15)',title:'Azure Landing Zone & Multi-Region Migration',desc:'Rebuilt legacy on-prem infrastructure into a governed Azure landing zone spanning 4 regions, achieving 99.9% platform uptime and a 32% infrastructure cost reduction in 6 months.',tag:'Landing Zone Implementation'}
     ]
   },
   azureintegration: {
@@ -594,14 +597,12 @@ const CAPABILITIES = {
       {icon:'robot',label:'RPA Development',desc:'We apply robotic process automation to legacy and manual workflows that resist modernization, delivering fast wins without touching underlying systems.'},
       {icon:'chart',label:'Power BI Dashboard Development',desc:'We build interactive dashboards that turn raw data into clear, actionable insight, so decisions are backed by evidence rather than guesswork.'},
       {icon:'monitor',label:'Power Pages Development',desc:'We build secure, external-facing portals and websites on Power Pages, extending your Power Platform investment to customers and partners.'},
-      {icon:'sparkle',label:'Copilot Development',desc:'We build custom Copilot experiences embedded directly into everyday workflows, so employees get relevant AI assistance exactly where they need it.'},
       {icon:'robot',label:'Copilot Studio Solutions',desc:'We design conversational AI agents with Copilot Studio that handle common requests and free your teams to focus on higher-value work.'},
       {icon:'shield',label:'Platform Governance',desc:'We put security, ALM and compliance controls in place across your Power Platform estate, so adoption scales safely as usage grows.'},
       {icon:'wrench',label:'ALM Implementation',desc:'We implement application lifecycle management practices that make releases safe, repeatable and auditable across every environment.'},
       {icon:'building',label:'Center of Excellence Setup',desc:'We establish the frameworks, standards and support model that let citizen developers build safely at scale, without creating shadow IT risk.'},
       {icon:'layers',label:'Environment Strategy',desc:'We design a clear environment strategy for development, test and production, so changes move through the pipeline safely and predictably.'},
-      {icon:'upload',label:'Platform Migration',desc:'We migrate legacy platforms and processes onto Power Platform, preserving business logic while modernizing the underlying technology.'},
-      {icon:'database',label:'SharePoint & Lotus Notes Migration',desc:'We migrate legacy SharePoint sites and Lotus Notes applications onto modern platforms, reducing licensing costs and technical risk.'}
+      {icon:'upload',label:'Platform Migration',desc:'We migrate legacy platforms and processes onto Power Platform, preserving business logic while modernizing the underlying technology.'}
     ],
     techStack:[
       {label:'Power Apps',icon:'bolt',logoUrl:'https://cdn.jsdelivr.net/gh/microsoft/PowerBI-Icons@main/SVG/Power-Apps.svg'},
@@ -625,7 +626,12 @@ const CAPABILITIES = {
     stories:[
       {icon:'database',color:'#00d4ff',bg:'rgba(0,212,255,0.15)',title:'Lotus Notes Migration',desc:'Migrated 1,200+ Lotus Notes applications to Power Platform with improved usability and reduced costs.',tag:'SharePoint & Lotus Notes Migration'},
       {icon:'upload',color:'#7cc4fa',bg:'rgba(79,147,217,0.15)',title:'Aqualine Migration',desc:'Modernized legacy processes and migrated to Power Platform, enabling 50% faster process execution.',tag:'Platform Migration'},
-      {icon:'sync',color:'#ff8c42',bg:'rgba(255,140,66,0.15)',title:'HR Automation',desc:'Automated HR approval and onboarding workflows, cutting manual processing time significantly.',tag:'Power Automate Workflow Development'}
+      {icon:'robot',color:'#ff8c42',bg:'rgba(255,140,66,0.15)',title:'Enterprise RPA Migration',desc:'Modernized 100+ UiPath automations onto Power Platform for a global services enterprise, completing the migration in under 11 months with zero disruption to operations.',tag:'RPA Development'},
+      {icon:'sync',color:'#ff4f6d',bg:'rgba(255,79,109,0.15)',title:'RPA Platform Modernization',desc:'Migrated a 50+ process UiPath estate to Power Automate and stood up a new Power Platform Center of Excellence, cutting RPA licensing and platform costs by 35-40% in under 6 months.',tag:'Migration and Custom Development'},
+      {icon:'layers',color:'#00c9a7',bg:'rgba(0,201,167,0.15)',title:'Lotus Notes Migration Factory',desc:'Migrated 70+ Lotus Notes applications to SharePoint and Power Apps, cutting application development time by 50% and IT support tickets by 40%.',tag:'SharePoint & Lotus Notes Migration'},
+
+      {icon:'shield',color:'#00d4ff',bg:'rgba(0,212,255,0.15)',title:'Enterprise-Wide AI Governance Rollout',desc:'Established AI governance for a global enterprise of ~8,000 employees across Microsoft 365 Copilot, Copilot Studio and AI Builder, achieving full visibility into AI usage and eliminating unauthorized model deployments.',tag:'Platform Governance'},
+      {icon:'users',color:'#7cc4fa',bg:'rgba(79,147,217,0.15)',title:'Power Platform COE Implementation',desc:'Implemented role-based access, DLP policies and approval workflows through the Power Platform Admin Center, extending centralized AI oversight to 8,000+ employees.',tag:'Center of Excellence Setup'}
     ]
   },
   ai: {
@@ -695,7 +701,9 @@ const CAPABILITIES = {
     ],
     stories:[
       {icon:'users',color:'#ff8c42',bg:'rgba(255,140,66,0.15)',title:'CRM Rollout',desc:'Rolled out Dynamics 365 CRM across sales and marketing teams, unifying the customer view.',tag:'CRM Implementation'},
-      {icon:'building',color:'#a78bfa',bg:'rgba(88,40,115,0.2)',title:'ERP Integration',desc:'Integrated Dynamics 365 Finance and Operations with legacy systems for seamless data flow.',tag:'ERP Implementation'}
+      {icon:'building',color:'#a78bfa',bg:'rgba(88,40,115,0.2)',title:'ERP Integration',desc:'Integrated Dynamics 365 Finance and Operations with legacy systems for seamless data flow.',tag:'ERP Implementation'},
+      {icon:'building',color:'#ff8c42',bg:'rgba(255,140,66,0.15)',title:'D365 Finance & Supply Chain Rollout',desc:'Replaced a legacy ERP with Dynamics 365 Finance and Supply Chain Management across a multi-site manufacturing operation, migrating 14,500+ SKUs and bringing 10 sites live within 9 months.',tag:'ERP Implementation'},
+      {icon:'chat',color:'#a78bfa',bg:'rgba(88,40,115,0.2)',title:'D365 Customer Engagement Implementation',desc:'Deployed Dynamics 365 Sales and Customer Service to unify CRM across regional business units, onboarding 2,800+ users across 7 countries and cutting case resolution time by 40%.',tag:'CRM Implementation'}
     ]
   },
   migration: {
